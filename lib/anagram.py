@@ -13,3 +13,6 @@ class Anagram:
                 matches.append(w)
 
         return matches
+listen = Anagram("listen")
+print(listen.match(['enlists', 'google', 'inlets', 'banana']))
+
